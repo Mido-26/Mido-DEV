@@ -4,7 +4,8 @@ import Contact from './components/coontact'
 import Portfolio from './components/portfolio'
 import Hero from './components/hero'
 import Navbar from './components/navbar'
-import About from './components/about-me'
+import About from './pages/about'
+
 
 const App = () => {
   return (

@@ -5,10 +5,10 @@ const navbar = () => {
 
   // Navigation links object
   const navLinks = [
-    { name: 'Projects', href: '#project', icon: 'fas fa-laptop-code' },
-    { name: 'Skills', href: '#', icon: 'fas fa-tools' },
-    { name: 'Portfolio', href: '#', icon: 'fas fa-folder-open' },
-    { name: 'Contact', href: '#contacts', icon: 'fas fa-envelope' }
+    { name: 'Home', href: '#', icon: 'fas fa-house' },
+    { name: 'Projects', href: '#projects', icon: 'fas fa-laptop-code' },
+    // { name: 'About-Me', href: '/About', icon: 'fas fa-tools' },
+    { name: 'Contacts', href: '#contacts', icon: 'fas fa-envelope' }
   ]
 
   return (
@@ -19,7 +19,7 @@ const navbar = () => {
           <div>
             <h3 className='cursor-pointer text-lg font-bold bg-gradient-to-r from-green-600 to-purple-500 bg-clip-text text-transparent animate-gradientText'>
               {'< Hamidu Yusuph />'}
-              <span className='text-gray-300'> | Full Stack Developer</span>
+              <span className='text-gray-300 hidden lg:inline-block'> | Full Stack Developer</span>
             </h3>
           </div>
 
