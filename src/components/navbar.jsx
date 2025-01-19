@@ -5,10 +5,10 @@ const navbar = () => {
 
   // Navigation links object
   const navLinks = [
-    { name: 'Projects', href: '#', icon: 'fas fa-laptop-code' },
+    { name: 'Projects', href: '#project', icon: 'fas fa-laptop-code' },
     { name: 'Skills', href: '#', icon: 'fas fa-tools' },
     { name: 'Portfolio', href: '#', icon: 'fas fa-folder-open' },
-    { name: 'Contact', href: '#', icon: 'fas fa-envelope' }
+    { name: 'Contact', href: '#contacts', icon: 'fas fa-envelope' }
   ]
 
   return (

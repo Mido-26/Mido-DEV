@@ -50,7 +50,7 @@ const coontact = () => {
 
   return (
     <>
-      <section className='text-center py-12'>
+      <section className='text-center py-12' id='contacts'>
         <h2 className='text-xl font-bold text-gray-300'>
           <i className='fas fa-handshake text-green-500 mr-2'></i> Let's Connect
         </h2>
@@ -62,8 +62,8 @@ const coontact = () => {
 
       {/* location */}
       <div className="flex justify-center items-center my-6">
-        <div className='px-4 py-3 rounded-xl border border-gray-200 text-gray-200 font-medium text-sm hover:bg-gradient-to-br hover:from-green-800 to-purple-400 cursor-pointer z-10 bg-opacity-5'>
-            <i className='fa fa-location-dot mr-2 text-green-600'></i> Dar Es Salaam, Tanzania |
+        <div className='px-4 py-3 rounded-xl border border-gray-200 text-gray-200 font-medium text-[10px] md:text-sm hover:bg-gradient-to-br hover:from-green-800 to-purple-400 cursor-pointer z-10 bg-opacity-5'>
+            <i className='fa fa-location-dot mr-2 text-green-600 text-'></i> Dar Es Salaam, Tanzania |
             <i className='far fa-clock mx-2 text-green-600'></i> EAT ( UTC+3 )
         </div>
       </div>
@@ -108,7 +108,7 @@ const coontact = () => {
       </div> */}
       {/* Working time */}
       <div className="flex justify-center items-center my-12">
-        <div className='px-4 py-3 rounded-xl border border-gray-200 text-gray-200 font-medium'>
+        <div className='px-4 py-3 rounded-xl border border-gray-200 text-gray-200 font-medium text-[10px] md:text-sm'>
             Preferred working hours: 6 AM - 10 PM EAT
         </div>
       </div>

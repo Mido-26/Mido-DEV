@@ -39,8 +39,8 @@ const footer = () => {
 
   return (
     <footer className=' text-gray-300 py-2 border-t border-gray-200 '>
-      <div className='max-w-4xl mx-auto text-center flex items-center gap-2 justify-between w-full'>
-        <p>© {getYear()} Hamidu Yusuph | All Rights Reserved.</p>
+      <div className='max-w-4xl mx-auto text-center flex flex-col lg:flex-row items-center gap-2 justify-between w-full'>
+        <p className='text-[10px] md:text-sm' >© {getYear()} Hamidu Yusuph | All Rights Reserved.</p>
         <div className='flex justify-center gap-4 '>
           {socialMedia.map((social, index) => (
             <a
@@ -49,7 +49,7 @@ const footer = () => {
              href={`${social.link}`} alt={`${social.name}`} 
              className='border border-gray-100 pt-2 px-2 pb-1 rounded-xl cursor-pointer z-10 hover:bg-gray-200 transition-transform duration-300 delay-150 group'>
                 <i
-                   className={` ${social.icon} text-xl text-gray-200 text-[18px] group-hover:text-slate-900`}>
+                   className={` ${social.icon} text-xl text-gray-200 text-[12px] md:text-[18px] group-hover:text-slate-900`}>
 
                 </i>
             </a>

@@ -90,7 +90,7 @@ const portfolio = () => {
   return (
     <>
       {/* my projects */}
-      <section className='py-12 px-8 '>
+      <section className='py-12 px-8 ' id='projects'>
         {/* Section Header */}
         <h2 className='text-xl font-bold text-center flex items-center justify-center gap-2 mb-8 text-gray-300'>
           <i className='fas fa-laptop-code text-green-500'></i> My Projects
