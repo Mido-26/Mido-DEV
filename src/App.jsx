@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import './assets/profile-3.jpg'
 import Footer from './components/footer'
 import Contact from './components/coontact'
 import Portfolio from './components/portfolio'

@@ -43,10 +43,21 @@ const navbar = () => {
           <div className='flex items-center gap-4'>
             {/* Small Icon */}
             <button
-              className="lg:[css-button-retro--green]  text-white font-medium py-2 px-2 rounded-md transition duration-300 flex items-center"
-              aria-label="Schedule Appointment"
+              className='hidden relative md:inline-block min-w-full h-10 font-bold text-white transition-all duration-300 border border-gray-600 bg-transparent outline-none hover:shadow-lg group px-[10px] py-[5px]'
+              aria-label='Schedule Appointment'
             >
-              <i className="fas fa-calendar-check mr-2"></i> <span className='hidden lg:inline-block'>Schedule Appointment</span>
+              <span className='absolute inset-0 bg-green-700 translate-x-1 translate-y-1 transition-transform duration-200 group-hover:translate-x-0 group-hover:translate-y-0 z-[-1]'></span>
+              <i className='fas fa-calendar-check mr-2'></i>{' '}
+              <span className='hidden lg:inline-block'>
+                Schedule Appointment
+              </span>
+            </button>
+            
+            <button
+              className="inline-block md:hidden text-gray-300 text-xl hover:text-gray-400 transition duration-300"
+              aria-label="Open Calendar"
+            >
+              <i className="fas fa-calendar-alt"></i>
             </button>
 
             {/* Mobile Menu Button */}

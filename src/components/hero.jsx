@@ -1,6 +1,7 @@
 import React from 'react'
 import Pattern from './pattern'
 
+
 const hero = () => {
   const stack = [
     { name: 'React', icon: 'fab fa-react', color: 'text-blue-500' },
@@ -86,7 +87,7 @@ const hero = () => {
         <div className='w-1/3 hidden  h-full lg:flex justify-center items-center animate-zoomIn delay-400 relative p-8'>
         <Pattern />
           <img
-            src='./assets/img/hero.png'
+            src='/img/profile-3.jpg'
             alt='MidoDEV'
             className='w-full h-auto max-w-[350px] shadow-sm rounded-lg'
           />

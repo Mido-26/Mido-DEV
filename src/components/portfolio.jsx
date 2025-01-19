@@ -9,7 +9,7 @@ const portfolio = () => {
       description: 'To Do App to manage your daily activities ',
       available: true,
       stack: ['React', 'Tailwind', 'Vite'],
-      imgPath: 'assets/img/To-do.png',
+      imgPath: '/img/To-Do.png',
       link: 'https://to-do-react-q4q6m.kinsta.page/'
     },
     {
@@ -18,7 +18,7 @@ const portfolio = () => {
       description: 'Saas product to manage saacos day to day activities',
       available: false,
       stack: ['Laravel', 'Mysql', 'Tailwind'],
-      imgPath: 'assets/img/dashboard.png',
+      imgPath: '/img/dashboard.png',
       link: '#'
     },
     {
@@ -27,7 +27,7 @@ const portfolio = () => {
       description: 'Saas product to manage saacos day to day activities',
       available: true,
       stack: ['Html', 'Php', 'Tailwind'],
-      imgPath: './src/assets/img/ipasi.png',
+      imgPath: '/img/ipasi.png',
       link: 'http://ipasi.co.tz'
     },
     {
@@ -36,7 +36,7 @@ const portfolio = () => {
       description: 'A Landing page TechQuorums Solutions ',
       available: true,
       stack: ['Html', 'Bootstrap', 'Php'],
-      imgPath: './src/assets/img/techQuorum.png',
+      imgPath: '/img/techQuorum.png',
       link: 'https://tech-quorum.vercel.app/'
     },
     {
@@ -47,7 +47,7 @@ const portfolio = () => {
 
       available: false,
       stack: ['Php', 'Mysql', 'Tailwind'],
-      imgPath: './src/assets/img/hq-pads.png',
+      imgPath: '/img/hq-pads.png',
       link: '#'
     },
     {
@@ -56,7 +56,7 @@ const portfolio = () => {
       description: 'An  Agriculturral product designed to Streamline the rental and management of agricultural  machinaries.',
       available: true,
       stack: ['Php', 'Mysql', 'Bootstrap', 'Css'],
-      imgPath: './src/assets/img/agribiz-equipment.png',
+      imgPath: '/img/agribiz-equipment.png',
       link: 'http://agribiz.liveblog365.com/'
     }
   ]
