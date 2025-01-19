@@ -9,7 +9,7 @@ const portfolio = () => {
       description: 'To Do App to manage your daily activities ',
       available: true,
       stack: ['React', 'Tailwind', 'Vite'],
-      imgPath: './src/assets/img/To-do.png',
+      imgPath: 'assets/img/To-do.png',
       link: 'https://to-do-react-q4q6m.kinsta.page/'
     },
     {
@@ -18,7 +18,7 @@ const portfolio = () => {
       description: 'Saas product to manage saacos day to day activities',
       available: false,
       stack: ['Laravel', 'Mysql', 'Tailwind'],
-      imgPath: './src/assets/img/dashboard.png',
+      imgPath: 'assets/img/dashboard.png',
       link: '#'
     },
     {
