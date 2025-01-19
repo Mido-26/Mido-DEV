@@ -68,7 +68,7 @@ const coontact = () => {
         </div>
       </div>
       {/* Contact Options */}
-      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 max-w-5xl mx-auto px-8 lg:px-0'>
+      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 max-w-5xl mx-auto px-2 lg:px-0'>
         {contactOptions.map((option, index) => (
           <div
             key={index}

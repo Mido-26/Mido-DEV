@@ -4,7 +4,7 @@ const pattern = () => {
   return (
     <>
       {/* <!-- Glowing Pattern --> */}
-      <div class='absolute inset-0'>
+      <div className='absolute inset-0'>
         <svg height='50%' width='90%'>
           <defs>
             {/* <!-- Pattern --> */}
@@ -14,12 +14,12 @@ const pattern = () => {
               height='20'
               patternUnits='userSpaceOnUse'
             >
-              <line x2='10' y1='20' class='stroke-white' stroke-width='0.5' />
+              <line x2='10' y1='20' className='stroke-white' strokeWidth={0.5} />
             </pattern>
             {/* <!-- Gradient for fade effect --> */}
             <linearGradient id='fade-gradient' x1='0' x2='0' y1='0' y2='1'>
-              <stop offset='0%' stop-color='white' />
-              <stop offset='100%' stop-color='transparent' />
+              <stop offset='0%' stopColor='white'  />
+              <stop offset='100%' stopColor='transparent'/>
             </linearGradient>
             {/* <!-- Mask --> */}
             <mask id='fade-mask'>
