@@ -14,7 +14,7 @@ const portfolio = () => {
     },
     {
       type: 'SaaS',
-      name: 'Saccos Managent',
+      name: 'Saccos Management',
       description: 'Saas product to manage saacos day to day activities',
       available: false,
       stack: ['Laravel', 'Mysql', 'Tailwind'],
@@ -24,9 +24,9 @@ const portfolio = () => {
     {
       type: 'Web Development',
       name: 'Ipasi Real Estate',
-      description: 'Saas product to manage saacos day to day activities',
+      description: 'A visually appealing and responsive landing page designed to showcase real estate services, property listings, and drive client engagement through modern design and clear calls to action.',
       available: true,
-      stack: ['Html', 'Php', 'Tailwind'],
+      stack: ['Html', 'Php', 'Tailwind CSS'],
       imgPath: '/img/ipasi.png',
       link: 'http://ipasi.co.tz'
     },
