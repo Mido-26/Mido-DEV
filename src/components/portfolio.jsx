@@ -8,7 +8,7 @@ const Portfolio = () => {
       description: 'To Do App to manage your daily activities ',
       available: true,
       stack: ['React', 'Tailwind', 'Vite'],
-      imgPath: './src/assets/img/To-Do.png',
+      imgPath: '/img/To-Do.png',
       link: 'https://to-do-react-q4q6m.kinsta.page/'
     },
     {
@@ -17,7 +17,7 @@ const Portfolio = () => {
       description: 'Saas product to manage saacos day to day activities',
       available: true,
       stack: ['Laravel', 'Mysql', 'Tailwind'],
-      imgPath: './src/assets/img/dashboard.png',
+      imgPath: '/img/dashboard.png',
       link: 'https://akibasmart.co.tz'
     },
      {
@@ -26,13 +26,13 @@ const Portfolio = () => {
       description: 'A clone of the Halopesa UI built with Flutter.',
       available: true,
       stack: ['Flutter', 'Dart'],
-      imgPath: './src/assets/img/halopesa_splashPage.png',
+      imgPath: '/img/halopesa_splashPage.png',
       link: 'https://github.com/Mido-26/halopesa_ui.git',
       screenshots: [
-        './src/assets/img/halopesa_splashPage.png',
-        './src/assets/img/halopesa_login.png',
-        './src/assets/img/halopesa_homePage.png',
-        './src/assets/img/halopesa_profilePage.png'
+        '/img/halopesa_splashPage.png',
+        '/img/halopesa_login.png',
+        '/img/halopesa_homePage.png',
+        '/img/halopesa_profilePage.png'
       ]
     },
     {
@@ -41,7 +41,7 @@ const Portfolio = () => {
       description: 'A real estate management platform.',
       available: true,
       stack: ['Html', 'Php', 'Tailwind'],
-      imgPath: './src/assets/img/ipasi.png',
+      imgPath: '/img/ipasi.png',
       link: 'http://ipasi.co.tz'
     },
     {
@@ -50,7 +50,7 @@ const Portfolio = () => {
       description: 'A Landing page for TechQuorum Solutions.',
       available: true,
       stack: ['Html', 'Bootstrap', 'Php'],
-      imgPath: './src/assets/img/techQuorum.png',
+      imgPath: '/img/techQuorum.png',
       link: 'https://tech-quorum.vercel.app/'
     },
     {
@@ -59,7 +59,7 @@ const Portfolio = () => {
       description: 'Sales and inventory system for sanitary pads.',
       available: false,
       stack: ['Php', 'Mysql', 'Tailwind'],
-      imgPath: './src/assets/img/hq-pads.png',
+      imgPath: '/img/hq-pads.png',
       link: '#'
     },
     {
@@ -68,7 +68,7 @@ const Portfolio = () => {
       description: 'Agricultural equipment rental management system.',
       available: true,
       stack: ['Php', 'Mysql', 'Bootstrap', 'Css'],
-      imgPath: './src/assets/img/agribiz-equipment.png',
+      imgPath: '/img/agribiz-equipment.png',
       link: 'http://agribiz.liveblog365.com/'
     },
    
